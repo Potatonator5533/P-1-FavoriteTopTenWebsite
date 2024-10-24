@@ -117,3 +117,50 @@ body {
         font-size: 0.8rem;
     }
 }
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* Update fight-card styles to accommodate video */
+.fight-card {
+    background-color: #333;
+    color: white;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+}
+
+.fight-card:hover {
+    transform: translateY(-5px);
+}
+
+.fight-description {
+    padding: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .fight-card {
+        margin-bottom: 1rem;
+    }
+    
+    .fight-description {
+        font-size: 0.8rem;
+    }
+}
