@@ -41,7 +41,7 @@
   }
   /* Global Styles */
 body {
-    background-color: #1a1a1a;
+    background-color: #817b7bea;
     color: white;
 }
 
@@ -102,21 +102,11 @@ body {
     line-height: 1.5;
 }
 
-/* Navigation Arrow Button */
-.btn-outline-light:hover {
-    background-color: #333;
-}
-
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-    .fight-card {
-        margin-bottom: 1rem;
-    }
     
     .fight-description {
         font-size: 0.8rem;
     }
-}
+
 .video-container {
     position: relative;
     width: 100%;
@@ -134,7 +124,7 @@ body {
     border: 0;
 }
 
-/* Update fight-card styles to accommodate video */
+
 .fight-card {
     background-color: #333;
     color: white;
@@ -144,9 +134,7 @@ body {
     transition: transform 0.2s ease-in-out;
 }
 
-.fight-card:hover {
-    transform: translateY(-5px);
-}
+
 
 .fight-description {
     padding: 1rem;
@@ -154,13 +142,8 @@ body {
     line-height: 1.5;
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .fight-card {
-        margin-bottom: 1rem;
-    }
+
     
     .fight-description {
         font-size: 0.8rem;
     }
-}
