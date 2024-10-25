@@ -8,11 +8,15 @@ body {
   background-color: #5f5f5f;
 }
 
+.white-font-click {
+  color: white;
+}
+
 .white-font {
   color: white;
 }
 
-.white-font:hover {
+.white-font-click:hover {
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -23,6 +27,7 @@ body {
 
 .small-font {
   font-size: 20px;
+  line-height: 40px;
 }
 
 .medium-font {
