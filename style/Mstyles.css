@@ -45,7 +45,7 @@ body {
     color: white;
 }
 
-/* Navigation Styles */
+
 .navbar {
     background-color: #000 !important;
 }
@@ -71,15 +71,14 @@ body {
     color: white;
 }
 
-/* Fight Card Styles */
+
 .fight-card {
     background-color: #333;
     color: white;
     margin-bottom: 2rem;
     border-radius: 8px;
-    overflow: hidden;
-    transition: transform 0.2s ease-in-out;
-}
+    
+  
 
 .fight-card:hover {
     transform: translateY(-5px);
@@ -110,7 +109,7 @@ body {
 .video-container {
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    padding-bottom: 56.25%; 
     height: 0;
     overflow: hidden;
 }
@@ -128,10 +127,7 @@ body {
 .fight-card {
     background-color: #333;
     color: white;
-    margin-bottom: 2rem;
-    border-radius: 8px;
-    overflow: hidden;
-    transition: transform 0.2s ease-in-out;
+   
 }
 
 
@@ -147,3 +143,20 @@ body {
     .fight-description {
         font-size: 0.8rem;
     }
+
+    
+      }
+
+
+     
+    
+    .btn-primary {
+      background-color: #ff990000;
+      border-color: #ff990000;
+    }
+    
+    .btn-primary:hover {
+      background-color: #f57c00;
+      border-color: #f57c00;
+    }
+    
