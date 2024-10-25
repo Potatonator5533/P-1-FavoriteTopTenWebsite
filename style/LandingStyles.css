@@ -98,5 +98,10 @@ body {
     .description {
         font-size: 1rem;
     }
-}
 
+.button-container img{
+    
+        width: 100px; 
+        height: 10px;
+}
+}
