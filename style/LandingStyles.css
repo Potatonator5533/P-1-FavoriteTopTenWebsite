@@ -1,0 +1,109 @@
+
+
+body {
+    background-color: #000;
+    color: white;
+    font-family: 'Inknut Antiqua', serif;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.main-title {
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 3rem;
+    font-weight: 700;
+}
+
+
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+/* Content section styling */
+.content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4a4a4a;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+/* Image container styling */
+.image-container {
+    width: 100%;
+    height: 300px;
+    background-color: #e0e0e0;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+}
+
+.section-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Button styling */
+.button-container {
+    margin-bottom: 1.5rem;
+}
+
+.view-button {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 0.8rem 2rem;
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+
+
+.description {
+    text-align: left;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+    .content-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .main-title {
+        font-size: 3rem;
+    }
+
+    .image-container {
+        height: 250px;
+    }
+
+    .view-button {
+        font-size: 1rem;
+        padding: 0.6rem 1.5rem;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+}
+
+/* Additional hover effects */
+.content-section:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
