@@ -1,0 +1,47 @@
+.inknut-antiqua-regular {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: #5f5f5f;
+}
+
+.white-font {
+  color: white;
+}
+
+.white-font:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.nav-link {
+  color: white;
+}
+
+
+.small-font {
+  font-size: 20px;
+}
+
+.medium-font {
+  font-size: 32px;
+  line-height: 52px;
+}
+
+.large-font {
+  font-size: 128px;
+}
+
+
+nav div {
+  height: 100px;
+  background-color: black;
+  margin-top: -8px;
+  margin-bottom: -8px;
+}
+
+.item-slot-width {
+  width: 606px;
+}
