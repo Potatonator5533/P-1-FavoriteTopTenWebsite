@@ -150,11 +150,19 @@ body {
 
      
     
-    .btn-primary {
-      background-color: #ff990000;
-      border-color: #ff990000;
-    }
-    
+      .btn-primary-left {
+        background-color: #ff990000;
+        border-color: #ff990000;
+        position: absolute;
+        left: 88%;
+      }
+      .btn-primary-right {
+        background-color: #ff990000;
+        border-color: #ff990000;
+        position: absolute;
+        left: 8%;
+      }
+      
     .btn-primary:hover {
       background-color: #f57c00;
       border-color: #f57c00;
